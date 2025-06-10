@@ -1,345 +1,792 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=300&section=header&text=BLOCKCHAIN%20%E2%9A%A1%20AI%20INNOVATOR&fontSize=60&fontAlignY=35&desc=Merging%20Intelligence%20with%20Blockchain%20Innovation&animation=fadeIn" width="100%" />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Developer & AI Automation Specialist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=800&lines=Full-Stack+Blockchain+Developer;AI+Automation+Specialist;Smart+Contract+Architect;Web3+Innovation+Engineer;Open+for+International+Opportunities" alt="Typing SVG" /></a>
-</div>
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-8A2BE2?style=for-the-badge&labelColor=1A1A1A" />
-  <img src="https://img.shields.io/badge/Status-Open%20for%20Opportunities-00FFFF?style=for-the-badge&labelColor=1A1A1A" />
-</div>
+        /* Particle Background */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                        radial-gradient(circle at 40% 80%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+            animation: particleFloat 20s ease-in-out infinite;
+        }
 
-<br/>
+        @keyframes particleFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-20px) rotate(120deg); }
+            66% { transform: translateY(10px) rotate(240deg); }
+        }
 
-<!-- Particle Background Effect -->
-<div align="center">
-  <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
-</div>
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+        }
 
-<!-- Glassmorphism About Me Section -->
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img width="300px" src="https://avatars.githubusercontent.com/u/yourusername?v=4" style="border-radius: 50%; border: 5px solid #00FFFF; box-shadow: 0 0 20px #8A2BE2;" />
-      </td>
-      <td>
-        <h2>
-          <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> 
-          <span style="background: linear-gradient(to right, #00FFFF, #8A2BE2, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">About Me</span>
-        </h2>
-        <p align="justify">
-          Passionate <b>Blockchain Developer</b> specializing in <b>Smart Contracts</b>, <b>DeFi protocols</b>, and <b>Web3 applications</b>. Currently expanding expertise in <b>AI Agents</b> and <b>No-Code automation</b> to create revolutionary <b>AI-Blockchain hybrid solutions</b>. Seeking high-impact roles in international MNCs where I can drive innovation and deliver scalable blockchain solutions.
-        </p>
-        <div align="center">
-          <img src="https://komarev.com/ghpvc/?username=yourusername&style=for-the-badge&color=00FFFF&labelColor=1A1A1A" alt="Profile Views" />
-          <img src="https://img.shields.io/badge/Experience-4+%20Years-FFD700?style=for-the-badge&labelColor=1A1A1A" alt="Years of Experience" />
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="%23ffffff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23ffffff" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="200" r="100" fill="url(%23a)"><animate attributeName="cx" values="200;800;200" dur="20s" repeatCount="indefinite"/></circle><circle cx="800" cy="300" r="150" fill="url(%23a)"><animate attributeName="cy" values="300;700;300" dur="25s" repeatCount="indefinite"/></circle><circle cx="400" cy="600" r="80" fill="url(%23a)"><animate attributeName="r" values="80;120;80" dur="15s" repeatCount="indefinite"/></circle></svg>');
+            opacity: 0.3;
+            animation: backgroundShift 30s ease-in-out infinite;
+        }
+
+        @keyframes backgroundShift {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(180deg); }
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 8vw, 6rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 4s ease-in-out infinite;
+            transform: perspective(1000px) rotateX(15deg);
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 4vw, 2rem);
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: fadeInUp 1s ease-out 0.5s forwards;
+        }
+
+        .typewriter {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: #64ffda;
+            margin-bottom: 3rem;
+            min-height: 2em;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 3D Floating Elements */
+        .floating-element {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            animation: float3D 6s ease-in-out infinite;
+        }
+
+        .floating-element:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-element:nth-child(2) {
+            top: 60%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .floating-element:nth-child(3) {
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float3D {
+            0%, 100% {
+                transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+            }
+            33% {
+                transform: translateY(-20px) rotateX(15deg) rotateY(15deg);
+            }
+            66% {
+                transform: translateY(10px) rotateX(-10deg) rotateY(-10deg);
+            }
+        }
+
+        /* About Section */
+        .about {
+            padding: 8rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 6vw, 4rem);
+            text-align: center;
+            margin-bottom: 4rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            border-radius: 2px;
+            animation: expandLine 2s ease-out;
+        }
+
+        @keyframes expandLine {
+            from { width: 0; }
+            to { width: 100px; }
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideInLeft 1s ease-out forwards;
+        }
+
+        .about-visual {
+            position: relative;
+            height: 400px;
+            opacity: 0;
+            transform: translateX(50px);
+            animation: slideInRight 1s ease-out 0.3s forwards;
+        }
+
+        @keyframes slideInLeft {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .tech-cube {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 15px;
+            animation: rotateCube 10s linear infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .tech-cube:nth-child(1) {
+            top: 50px;
+            left: 50px;
+            animation-delay: 0s;
+        }
+
+        .tech-cube:nth-child(2) {
+            top: 150px;
+            right: 80px;
+            animation-delay: 3s;
+        }
+
+        .tech-cube:nth-child(3) {
+            bottom: 100px;
+            left: 100px;
+            animation-delay: 6s;
+        }
+
+        @keyframes rotateCube {
+            0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+            33% { transform: rotateX(120deg) rotateY(120deg) rotateZ(0deg); }
+            66% { transform: rotateX(240deg) rotateY(240deg) rotateZ(120deg); }
+            100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+        }
+
+        /* Technical Arsenal */
+        .skills {
+            padding: 8rem 2rem;
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(30, 30, 30, 0.9));
+            position: relative;
+        }
+
+        .skills-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .skill-category {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transform: translateY(50px);
+            opacity: 0;
+            animation: fadeInUp 1s ease-out forwards;
+            transition: all 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .skill-category:nth-child(1) { animation-delay: 0.2s; }
+        .skill-category:nth-child(2) { animation-delay: 0.4s; }
+        .skill-category:nth-child(3) { animation-delay: 0.6s; }
+
+        .skill-category h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #64ffda;
+            position: relative;
+        }
+
+        .skill-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .skill-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1);
+            border-radius: 4px;
+            width: 0;
+            animation: fillBar 2s ease-out forwards;
+            position: relative;
+        }
+
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: shimmer 2s ease-in-out infinite;
+        }
+
+        @keyframes fillBar {
+            to { width: var(--width); }
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* Interactive 3D Elements */
+        .tech-sphere {
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: conic-gradient(from 0deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7, #ff6b6b);
+            animation: rotateSphere 15s linear infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes rotateSphere {
+            from { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.1); }
+            to { transform: rotate(360deg) scale(1); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .floating-element {
+                display: none;
+            }
+
+            .hero-content {
+                padding: 1rem;
+            }
+        }
+
+        /* Scroll Animations */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease-out;
+        }
+
+        .scroll-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Loading Animation */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0a0a0a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            animation: fadeOut 2s ease-out 3s forwards;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top: 3px solid #64ffda;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Blockchain Developer</h1>
+            <h2 class="hero-subtitle">Building the Future with Code & Intelligence</h2>
+            <div class="typewriter" id="typewriter"></div>
         </div>
-      </td>
-    </tr>
-  </table>
-</div>
+    </section>
 
-<br/>
-
-<!-- Current Focus Section with Animated Cards -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #00FFFF, #8A2BE2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Current Focus</span>
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="33%" align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjM1MzYzMzIzYmQ5NDJiMDFkMzI5MjU5ZDEyYTM5ZDY2ZmExYTFkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPtjElfqwMOTbH2/giphy.gif" width="100" />
-        <h3>Building AI-Powered DeFi Solutions</h3>
-        <p>Integrating machine learning with smart contracts for predictive yield optimization</p>
-      </td>
-      <td width="33%" align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTc3YzJlZWJjYTk0YzFhYzFhZDY5NTUwMDM3YTJlZDU0ZWJkYTg2ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/QpVUMRUJGokfqXyfa1/giphy.gif" width="100" />
-        <h3>Developing Cross-Chain Automation</h3>
-        <p>Using no-code platforms for blockchain workflow automation across multiple chains</p>
-      </td>
-      <td width="33%" align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ0YzFkMzFkYTQ3MzM1ZDM4ZDI5ZDM0ZDM0ZTJkMzU0ZTJkMzFjYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/jTNG3RF6EwbkpD4LZx/giphy.gif" width="100" />
-        <h3>Creating Intelligent NFT Marketplaces</h3>
-        <p>AI-driven NFT recommendation systems and valuation algorithms</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- Technical Arsenal Section with Animated Skill Bars -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #8A2BE2, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Technical Arsenal</span>
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="33%">
-        <h3 align="center">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGQ2MzBmZjQ3NmM0ZDY5ZjEzYzgxYTY4MmRkNGZhNjBhZDEzMDg0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/HscDLzkO8EOTmgkhQP/giphy.gif" width="30" /> 
-          Blockchain Mastery
-        </h3>
-        <div align="center">
-          <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/BSC-F0B90B?style=for-the-badge&logo=binance&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Ethers.js-24A19C?style=for-the-badge&logo=ethereum&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Truffle-3C3C3D?style=for-the-badge&logo=truffle&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/MetaMask-F6851B?style=for-the-badge&logo=metamask&logoColor=white&labelColor=1A1A1A" />
+    <!-- About Me Section -->
+    <section class="about scroll-reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate Blockchain Developer with a vision to revolutionize the digital landscape through innovative decentralized solutions. My journey spans across smart contract development, DeFi protocols, and NFT ecosystems, where I craft secure and scalable blockchain applications.</p>
+                
+                <p>Currently expanding my expertise into AI Agents and Automation workflows, I'm building the bridge between blockchain technology and artificial intelligence. This unique combination allows me to create intelligent, autonomous systems that can interact with blockchain networks, automate complex processes, and deliver unprecedented value.</p>
+                
+                <p>My mission is to merge cutting-edge blockchain technology with AI-powered automation to create solutions that not only solve today's problems but anticipate tomorrow's challenges.</p>
+            </div>
+            
+            <div class="about-visual">
+                <div class="tech-cube">ETH</div>
+                <div class="tech-cube">AI</div>
+                <div class="tech-cube">WEB3</div>
+            </div>
         </div>
-      </td>
-      <td width="33%">
-        <h3 align="center">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzM0YzRkZDFhNGM3NmFiYzM0ZDY5ZDRlZGJlZDY1ZjQxMDY0YzI0YiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/zOvBKUUEERdNm/giphy.gif" width="30" /> 
-          AI & Automation
-        </h3>
-        <div align="center">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Langchain-3C3C3D?style=for-the-badge&logo=chainlink&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Make.com-8A2BE2?style=for-the-badge&logo=make&logoColor=white&labelColor=1A1A1A" />
+    </section>
+
+    <!-- Technical Arsenal -->
+    <section class="skills scroll-reveal">
+        <div class="tech-sphere"></div>
+        <div class="skills-container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            
+            <div class="skills-grid">
+                <!-- Blockchain Mastery -->
+                <div class="skill-category">
+                    <h3>Blockchain Mastery</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Solidity</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Ethereum & Polygon</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Web3.js & Ethers.js</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 88%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Hardhat & Truffle</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>DeFi & NFTs</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>IPFS & MetaMask</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Automation -->
+                <div class="skill-category">
+                    <h3>AI & Automation</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 92%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>TensorFlow</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 78%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>LangChain & Langflow</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>OpenAI GPT APIs</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 88%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>n8n & Zapier</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Hugging Face</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full-Stack Development -->
+                <div class="skill-category">
+                    <h3>Full-Stack Development</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript & TypeScript</span>
+                            <span>93%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 93%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Next.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML5 & CSS3</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </td>
-      <td width="33%">
-        <h3 align="center">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJlNDFmYTNiNGY4ZDY0ZWJmZDI4YzU5ZmE3MmY0ZTBhMzYwYjRjZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UVG0BN8TOMKkPOJS6e/giphy.gif" width="30" /> 
-          Full-Stack Development
-        </h3>
-        <div align="center">
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1A1A1A" />
-          <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=1A1A1A" />
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+    </section>
 
-<br/>
-
-<!-- Featured Projects Section with 3D Cards -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #FFD700, #00FFFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Featured Projects</span>
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="33%">
-        <div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(0, 255, 255, 0.3); padding: 20px; transition: transform 0.3s;">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJlNDFmYTNiNGY4ZDY0ZWJmZDI4YzU5ZmE3MmY0ZTBhMzYwYjRjZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UVG0BN8TOMKkPOJS6e/giphy.gif" width="60" />
-          <h3 style="color: #00FFFF;">DeFinance AI</h3>
-          <p>AI-powered DeFi yield optimization platform</p>
-          <p><b>Tech:</b> Solidity, Python, TensorFlow, Web3.js</p>
-          <p><b>Impact:</b> 40% improved yield predictions</p>
-          <div>
-            <a href="#"><img src="https://img.shields.io/badge/Live_Demo-00FFFF?style=for-the-badge&logo=vercel&logoColor=black&labelColor=1A1A1A" /></a>
-            <a href="#"><img src="https://img.shields.io/badge/GitHub-8A2BE2?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A" /></a>
-          </div>
-        </div>
-      </td>
-      <td width="33%">
-        <div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(138, 43, 226, 0.3); padding: 20px; transition: transform 0.3s;">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzM0YzRkZDFhNGM3NmFiYzM0ZDY5ZDRlZGJlZDY1ZjQxMDY0YzI0YiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/zOvBKUUEERdNm/giphy.gif" width="60" />
-          <h3 style="color: #8A2BE2;">ChainFlow Automation</h3>
-          <p>No-code blockchain workflow automation</p>
-          <p><b>Tech:</b> Zapier, Smart Contracts, APIs</p>
-          <p><b>Impact:</b> 60% reduced manual processes</p>
-          <div>
-            <a href="#"><img src="https://img.shields.io/badge/Live_Demo-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1A1A1A" /></a>
-            <a href="#"><img src="https://img.shields.io/badge/GitHub-00FFFF?style=for-the-badge&logo=github&logoColor=black&labelColor=1A1A1A" /></a>
-          </div>
-        </div>
-      </td>
-      <td width="33%">
-        <div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(255, 215, 0, 0.3); padding: 20px; transition: transform 0.3s;">
-          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGQ2MzBmZjQ3NmM0ZDY5ZjEzYzgxYTY4MmRkNGZhNjBhZDEzMDg0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/HscDLzkO8EOTmgkhQP/giphy.gif" width="60" />
-          <h3 style="color: #FFD700;">NFT Intelligence Hub</h3>
-          <p>AI-driven NFT analytics and trading platform</p>
-          <p><b>Tech:</b> React, Solidity, OpenAI, IPFS</p>
-          <p><b>Impact:</b> 10K+ active users</p>
-          <div>
-            <a href="#"><img src="https://img.shields.io/badge/Live_Demo-FFD700?style=for-the-badge&logo=vercel&logoColor=black&labelColor=1A1A1A" /></a>
-            <a href="#"><img src="https://img.shields.io/badge/GitHub-8A2BE2?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A" /></a>
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- GitHub Analytics Section with Animated Stats -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ0YzFkMzFkYTQ3MzM1ZDM4ZDI5ZDM0ZDM0ZTJkMzU0ZTJkMzFjYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/jTNG3RF6EwbkpD4LZx/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #00FFFF, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">GitHub Analytics</span>
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=8A2BE2&text_color=FFFFFF&border_color=0D1117" alt="GitHub Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=8A2BE2&fire=FFD700&currStreakLabel=00FFFF&border=0D1117" alt="GitHub Streak" />
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&border_color=0D1117" alt="Top Languages" />
-      </td>
-      <td width="50%">
-        <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- Professional Journey Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTc3YzJlZWJjYTk0YzFhYzFhZDY5NTUwMDM3YTJlZDU0ZWJkYTg2ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/QpVUMRUJGokfqXyfa1/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #8A2BE2, #00FFFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Professional Journey</span>
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(0, 255, 255, 0.3); padding: 20px;">
-          <h3 style="color: #00FFFF;">Current Role</h3>
-          <p>Blockchain Developer & AI Enthusiast</p>
-          <h3 style="color: #8A2BE2;">Achievements</h3>
-          <ul align="left">
-            <li>Deployed 15+ smart contracts on mainnet</li>
-            <li>Built automation workflows saving 100+ hours/month</li>
-            <li>Contributed to 3 open-source blockchain projects</li>
-          </ul>
-        </div>
-      </td>
-      <td width="50%">
-        <div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(138, 43, 226, 0.3); padding: 20px;">
-          <h3 style="color: #FFD700;">Learning</h3>
-          <div align="center">
-            <img src="https://img.shields.io/badge/Advanced_AI_Agent_Development-00FFFF?style=for-the-badge&labelColor=1A1A1A" />
-            <img src="https://img.shields.io/badge/Cross--chain_Protocols-8A2BE2?style=for-the-badge&labelColor=1A1A1A" />
-            <img src="https://img.shields.io/badge/Zero_Knowledge_Proofs-FFD700?style=for-the-badge&labelColor=1A1A1A" />
-            <img src="https://img.shields.io/badge/Layer_2_Solutions-00FFFF?style=for-the-badge&labelColor=1A1A1A" />
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- Certifications & Recognition Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjM1MzYzMzIzYmQ5NDJiMDFkMzI5MjU5ZDEyYTM5ZDY2ZmExYTFkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPtjElfqwMOTbH2/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #FFD700, #8A2BE2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Certifications & Recognition</span>
-</h2>
-
-<div align="center">
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <img src="https://img.shields.io/badge/Ethereum_Developer_Certification-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/TensorFlow_Developer_Certificate-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/Blockchain_Council_Certified-8A2BE2?style=for-the-badge&labelColor=1A1A1A" />
-  </div>
-</div>
-
-<br/>
-
-<!-- Connect & Collaborate Section with Floating Social Icons -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> 
-  <span style="background: linear-gradient(to right, #00FFFF, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Connect & Collaborate</span>
-</h2>
-
-<div align="center">
-  <a href="https://linkedin.com/in/yourusername">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1A1A" />
-  </a>
-  <a href="https://twitter.com/yourusername">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1A1A1A" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1A1A" />
-  </a>
-  <a href="https://yourusername.com">
-    <img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=About.me&logoColor=white&labelColor=1A1A1A" />
-  </a>
-  <a href="https://medium.com/@yourusername">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=1A1A1A" />
-  </a>
-</div>
-
-<br/>
-
-<!-- Call to Action Section with Animated CTA -->
-<div align="center" style="background: rgba(26, 26, 26, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); border: 1px solid rgba(0, 255, 255, 0.3); padding: 20px; margin: 20px;">
-  <h2 align="center">
-    <span style="background: linear-gradient(to right, #00FFFF, #8A2BE2, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Ready to Revolutionize Your Blockchain Infrastructure?</span>
-  </h2>
-  
-  <div align="center">
-    <img src="https://img.shields.io/badge/✨_Open_for_Full--time_Opportunities-00FFFF?style=for-the-badge&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/🚀_Available_for_High--Impact_Projects-8A2BE2?style=for-the-badge&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/🌍_Seeking_International_MNC_Roles-FFD700?style=for-the-badge&labelColor=1A1A1A" />
-    <img src="https://img.shields.io/badge/💼_Targeting_$80K+_Annual_Packages-00FFFF?style=for-the-badge&labelColor=1A1A1A" />
-  </div>
-  
-  <div align="center" style="margin-top: 20px;">
-    <a href="#contact">
-      <img src="https://img.shields.io/badge/HIRE_ME-00FFFF?style=for-the-badge&logoColor=black&labelColor=1A1A1A" />
-    </a>
-    <a href="#portfolio">
-      <img src="https://img.shields.io/badge/VIEW_PORTFOLIO-8A2BE2?style=for-the-badge&logoColor=white&labelColor=1A1A1A" />
-    </a>
-    <a href="#resume">
-      <img src="https://img.shields.io/badge/DOWNLOAD_RESUME-FFD700?style=for-the-badge&logoColor=black&labelColor=1A1A1A" />
-    </a>
-  </div>
-</div>
-
-<br/>
-
-<!-- Footer Section -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=150&section=footer&text=&fontSize=90" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=800&lines=The+future+belongs+to+those+who+build+it.;Blockchain+and+AI+are+not+just+technologies%2C+they+are+revolutions.;Innovation+is+where+preparation+meets+opportunity." alt="Typing SVG" />
-</div>
+    <script>
+        // Typewriter Effect
+        const typewriterText = [
+            "Crafting Smart Contracts with Precision",
+            "Building DeFi Protocols that Scale",
+            "Creating AI-Powered Automation",
+            "Developing Next-Gen dApps",
+            "Merging Blockchain with Intelligence"
+        ];
+        
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typewriterElement = document.getElementById('typewriter');
+        
+        function typeWriter() {
+            const currentText = typewriterText[textIndex];
+            
+            if (isDeleting) {
+                typewriterElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typewriterElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            let typeSpeed = isDeleting ? 50 : 100;
+            
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % typewriterText.length;
+                typeSpeed = 500;
+            }
+            
+            setTimeout(typeWriter, typeSpeed);
+        }
+        
+        // Start typewriter effect after loading
+        setTimeout(typeWriter, 3500);
+        
+        // Scroll Reveal Animation
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('revealed');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', revealOnScroll);
+        
+        // Smooth scrolling for better performance
+        let ticking = false;
+        
+        function updateScrollAnimations() {
+            revealOnScroll();
+            ticking = false;
+        }
+        
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateScrollAnimations);
+                ticking = true;
+            }
+        });
+        
+        // Initialize animations on load
+        window.addEventListener('load', () => {
+            revealOnScroll();
+        });
+        
+        // Interactive hover effects for skill categories
+        document.querySelectorAll('.skill-category').forEach(category => {
+            category.addEventListener('mouseenter', () => {
+                category.style.transform = 'translateY(-10px) scale(1.02) rotateX(5deg)';
+            });
+            
+            category.addEventListener('mouseleave', () => {
+                category.style.transform = 'translateY(0) scale(1) rotateX(0deg)';
+            });
+        });
+        
+        // Parallax effect for floating elements
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.floating-element');
+            
+            parallaxElements.forEach((element, index) => {
+                const speed = 0.5 + (index * 0.1);
+                element.style.transform = `translateY(${scrolled * speed}px) rotateX(${scrolled * 0.1}deg)`;
+            });
+        });
+    </script>
+</body>
+</html>
 
 
