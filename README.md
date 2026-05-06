@@ -1,8 +1,6 @@
 # Hi, I'm Bhavesh Rajpurohit 👋
 
-I bridge the gap between complex AI systems and real user value by
-turning LLMs, RAG pipelines, and Agentic workflows & AI Agents into products
-people actually want to use.
+I don't just manage AI; I architect Agency. I specialize in building deterministic, production-grade Agentic AI systems on top of non-deterministic LLMs. My focus is on eliminating the "Reliability Gap" between an AI demo and a scalable product.
 
 ---
 
